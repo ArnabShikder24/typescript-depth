@@ -3,6 +3,10 @@ interface IUser {
    age: number;
 }
 
+type YoucanUse = IUser & {
+   role: string;
+}
+
 interface IExtendedUser extends IUser {
    role: string;
 }
