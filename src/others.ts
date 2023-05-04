@@ -1,0 +1,1 @@
+export const name = console.log("Hello world Arnab shikder");
